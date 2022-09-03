@@ -1,0 +1,11 @@
+{
+	"name": "arctic1106.github.io",
+	"version": "1.0.1",
+	"main": "index.html",
+	"scripts": {
+		"buildcss": "npx tailwindcss -i ./css/input.css -o ./css/styles.css --minify"
+	},
+	"devDependencies": {
+		"tailwindcss": "3.4.13"
+	}
+}
